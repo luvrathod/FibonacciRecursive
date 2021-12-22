@@ -14,10 +14,7 @@ int FibonacciRecursiveFunc(int nthPos) {
 	}
 	else {
 		return FibonacciRecursiveFunc(nthPos - 1) + FibonacciRecursiveFunc(nthPos - 2);
-	}
-	
-	
-	
+	}	
 }
 
 int main() {
